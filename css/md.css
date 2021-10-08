@@ -1,0 +1,168 @@
+body{
+    background-color: #E0EFE4;
+}
+
+#Nav ul li:hover {
+    background-image: -webkit-linear-gradient(270deg,rgba(244,226,3,1.00) 0%,rgba(255,0,0,1.00) 100%);
+background-image: linear-gradient(180deg,rgba(244,226,3,1.00) 0%,rgba(255,0,0,1.00) 100%);	
+color: rgba(255,254,254,1.00);	
+float: left;
+
+}
+#header {
+	background-color: #E0EFE4;
+	width: 100%;
+	height: 480px;
+}
+#headerContainer {
+	width: 980px;
+	margin:auto;
+}
+#rightHeader {
+	float: right;
+    width: 789px;
+	
+}
+#topLink {
+	border-radius: 16px;
+	background-color: #2B8CCC;
+	float: right;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 38px;
+}
+#logo {
+	float: left;
+	margin-top: 25px;
+	margin-left: 30px;
+}
+#topLink a    {
+	color: #FFFFFF;
+}
+#Nav {
+	float: left;
+	clear: right;
+    width: 900px;
+      
+}
+
+#Nav ul    {
+	list-style-type: none;
+	font-size: 1.2em;
+	color: #5C5A53;
+	font-family: Charlemagne Std;
+}
+#Nav ul li    {
+	width: 160px;
+ text-align: center;
+ 
+list-style-type: none;
+height: 30px;	
+vertical-align: middle;	
+padding-top: 11px;	
+float: left;
+}
+
+
+#headerContainer img {
+	float: right;
+	margin-top: 10px;
+}
+
+#leftheader {
+	float: left;
+	margin-top: 23px;
+	width: 360px;
+	margin-left: 37px;
+    background-image: url(../images/Line.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+    background-position-y: 30%;
+	background-size: auto 1px;
+}
+
+#leftheader h1  {
+	text-align: left;
+	color: #2B8BCC;
+	font-family: Charlemagne Std;
+	font-style: normal;
+	font-weight: 400;
+	
+   
+}
+
+
+#leftheader h1 .h1Sec2 {
+	color: #EFA656;
+}
+#leftheader p {
+	font-size: 18px;
+}
+ 
+#mainContainer {
+	background-image: -webkit-linear-gradient(270deg,rgba(0,66,128,1.00) 0%,rgba(61,142,193,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(0,66,128,1.00) 0%,rgba(61,142,193,1.00) 100%);
+	
+    width: 100%;
+	height: 315px;
+    float: right;
+    
+   
+}
+
+#footer {
+	background-color: #33326A;
+	width: 100%;
+	height: 50px;
+	border-top: 0px solid #FFFFFF;
+	text-align: center;
+    float: left;
+    margin: auto;
+    
+    
+}
+#footer p {
+	color: #FFFFFF;
+}
+
+#wrapper {
+    width: 980px;
+    margin: auto;          
+}
+#wrapper .cms {
+	width: 210px;
+	margin-left: 31px;
+	padding-top: 50px;
+	left: -4px;
+	text-indent: 15px;
+	float: left;
+}
+#wrapper .cms h3 {
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 14px;
+	padding-top: 21px;
+	font-family: Charlemagne Std;
+	font-size:16px;
+}
+
+#wrapper .cms img {
+	float: left;
+}
+#wrapper .cms a {
+	background-image: url(../images/Line.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	float: left;
+}
+#wrapper .cms p {
+	clear: both;
+	line-height: 1.2em;
+	padding-top: 10px;
+	font-size: 1em;
+	text-indent: 0px;
+}
+
+
